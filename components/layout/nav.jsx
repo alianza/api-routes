@@ -15,7 +15,6 @@ export default function Nav() {
       <div className="flex items-center gap-4 text-xl dark:decoration-neutral-100">
         <NavLink label="Home" href="/" exact />
         <NavLink label="New Pet" href="/new-pet" />
-        <NavLink label="New Flatground Trick" href="/new-flatground-trick" />
       </div>
     </nav>
   );
